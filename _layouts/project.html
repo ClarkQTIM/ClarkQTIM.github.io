@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<article class="project-page">
+
+  <p class="project-back">
+    <a href="{{ page.parent | default: '/research/' | relative_url }}">
+      ← Back to research
+    </a>
+  </p>
+
+  <header class="project-header">
+    <p class="eyebrow">{{ page.category | default: "Research Project" }}</p>
+
+    <h1>{{ page.title | escape }}</h1>
+
+    {% if page.subtitle %}
+      <p class="lead">{{ page.subtitle | escape }}</p>
+    {% endif %}
+
+    {% if page.status %}
+      <p class="project-status">Status: {{ page.status | escape }}</p>
+    {% endif %}
+  </header>
+
+  {% if page.hero_image %}
+    <figure class="project-hero-image">
+      <img src="{{ page.hero_image | relative_url }}"
+           alt="{{ page.hero_alt | default: page.title | escape }}">
+    </figure>
+  {% endif %}
+
+  <div class="project-content">
+    {{ content }}
+  </div>
+
+  {% if page.paper_url or page.code_url or page.slides_url or page.poster_url %}
+  <section class="project-resources">
+    <h2>Resources</h2>
+    <div class="resource-links">
+
+      {% if page.paper_url %}
+        <a href="{{ page.paper_url }}">Paper ↗</a>
+      {% endif %}
+
+      {% if page.code_url %}
+        <a href="{{ page.code_url }}">GitHub ↗</a>
+      {% endif %}
+
+      {% if page.slides_url %}
+        <a href="{{ page.slides_url }}">Slides ↗</a>
+      {% endif %}
+
+      {% if page.poster_url %}
+        <a href="{{ page.poster_url }}">Poster ↗</a>
+      {% endif %}
+
+    </div>
+  </section>
+  {% endif %}
+
+</article>
