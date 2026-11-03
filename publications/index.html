@@ -3,13 +3,65 @@ layout: default
 title: Publications | Christopher Clark
 ---
 
-
 <h1>Publications</h1>
 
 <p class="lead">
-  Selected peer-reviewed publications, conference papers,
-  and other scholarly work.
+  Peer-reviewed publications, conference proceedings,
+  and scholarly contributions.
 </p>
 
-<p>Publication list coming soon.</p>
+{% assign pubs = site.data.publications | sort: "year" | reverse %}
+{% assign years = pubs | map: "year" | uniq %}
 
+{% for year in years %}
+
+  <h2 class="publication-year">{{ year }}</h2>
+
+  {% for pub in pubs %}
+    {% if pub.year == year %}
+
+    <article class="publication-entry">
+
+      <div class="publication-meta">
+        {{ pub.type | escape }}
+        {% if pub.first_author %}
+          <span class="publication-label">First Author</span>
+        {% endif %}
+      </div>
+
+      <h3>{{ pub.title | escape }}</h3>
+
+      <p class="publication-citation">
+        {{ pub.citation | escape }}
+      </p>
+
+      <div class="publication-links">
+
+        {% if pub.publication_url %}
+          <a href="{{ pub.publication_url }}"
+             target="_blank" rel="noopener noreferrer">
+            Publication ↗
+          </a>
+        {% endif %}
+
+        {% if pub.project_url %}
+          <a href="{{ pub.project_url | relative_url }}">
+            Project →
+          </a>
+        {% endif %}
+
+      </div>
+
+      {% if pub.abstract %}
+        <details class="publication-abstract">
+          <summary>Show abstract</summary>
+          <p>{{ pub.abstract | escape }}</p>
+        </details>
+      {% endif %}
+
+    </article>
+
+    {% endif %}
+  {% endfor %}
+
+{% endfor %}

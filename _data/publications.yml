@@ -1,0 +1,64 @@
+- id: cervical-conformal-mc
+  title: "Conformal Prediction and Monte Carlo Inference for Addressing Uncertainty in Cervical Cancer Screening"
+  year: 2025
+  first_online: "2024-10-03"
+  type: "Conference Paper"
+  first_author: true
+  status: "Published"
+
+  authors:
+    - "Clark C"
+    - "Kinder S"
+    - "Egemen D"
+    - "Befano B"
+    - "Desai K"
+    - "Ahmed SR"
+    - "Singh P"
+    - "Rodriguez AC"
+    - "Jeronimo J"
+    - "De Sanjose S"
+    - "Wentzensen N"
+    - "Schiffman M"
+    - "Kalpathy-Cramer J"
+
+  venue: "UNSURE 2024 / Lecture Notes in Computer Science"
+  volume: "15167"
+  pages: "205-214"
+  publisher: "Springer"
+
+  doi: "10.1007/978-3-031-73158-7_19"
+  publication_url: "https://link.springer.com/chapter/10.1007/978-3-031-73158-7_19"
+  project_url: "/research/cervical/conformal-prediction/"
+
+  citation: >-
+    Clark C, Kinder S, Egemen D, Befano B, Desai K,
+    Ahmed SR, Singh P, Rodriguez AC, Jeronimo J,
+    De Sanjose S, Wentzensen N, Schiffman M,
+    Kalpathy-Cramer J. Conformal prediction and Monte
+    Carlo inference for addressing uncertainty in
+    cervical cancer screening. In: Sudre CH, Mehta R,
+    Ouyang C, Qin C, Rakic M, Wells WM, editors.
+    Uncertainty for Safe Utilization of Machine Learning
+    in Medical Imaging: UNSURE 2024. Cham: Springer;
+    2025. p. 205-214. (Lecture Notes in Computer Science;
+    vol. 15167). doi:10.1007/978-3-031-73158-7_19.
+
+  abstract: >-
+    In the medical domain, where a misdiagnosis can have
+    life-altering ramifications, understanding the certainty
+    of model predictions is an important part of the model
+    development process. However, deep learning approaches
+    suffer from a lack of a native uncertainty metric found
+    in other statistical learning methods. One common
+    technique for uncertainty estimation is the use of
+    Monte-Carlo (MC) dropout at training and inference.
+    Another approach is Conformal Prediction for Uncertainty
+    Quantification (CUQ). This paper will explore these two
+    methods as applied to a cervical cancer screening
+    algorithm currently under development for use in
+    low-resource settings. We find that overall, CUQ and
+    MC inference produce similar uncertainty patterns, that
+    CUQ can aid in model development through class
+    delineation, and that CUQ uncertainty is higher when
+    the model is incorrect, providing further fine-grained
+    information for clinical decisions.
