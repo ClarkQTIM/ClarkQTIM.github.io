@@ -10,7 +10,7 @@ title: Publications | Christopher Clark
   and scholarly contributions.
 </p>
 
-{% assign pubs = site.data.publications | sort: "year" | reverse %}
+{% assign pubs = site.data.publications | sort: "publication_date" | reverse %}
 {% assign years = pubs | map: "year" | uniq %}
 
 {% for year in years %}
@@ -54,7 +54,13 @@ title: Publications | Christopher Clark
 
       {% if pub.abstract %}
         <details class="publication-abstract">
-          <summary>Show abstract</summary>
+          <summary>
+  {% if pub.abstract_is_summary %}
+    Show summary
+  {% else %}
+    Show abstract
+  {% endif %}
+</summary>
           <p>{{ pub.abstract | escape }}</p>
         </details>
       {% endif %}

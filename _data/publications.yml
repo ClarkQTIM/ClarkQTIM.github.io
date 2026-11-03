@@ -1,4 +1,5 @@
 - id: cervical-conformal-mc
+  publication_date: "2024-10-03"
   title: "Conformal Prediction and Monte Carlo Inference for Addressing Uncertainty in Cervical Cancer Screening"
   year: 2025
   first_online: "2024-10-03"
@@ -64,6 +65,7 @@
     information for clinical decisions.
 
 - id: acetowhite-temporal
+  publication_date: "2025-11-12"
   title: "Automating the Detection of Acetowhite Lesions by Classifying the Temporal Behavior of Cervical Regions"
   year: 2026
   first_online: "2025-11-12"
@@ -134,6 +136,7 @@
     accuracy in detecting precancerous lesions.
 
 - id: uat-medsam
+  publication_date: "2026-02-17"
   title: "Uncertainty-Aware Training for Ophthalmic Segmentation Using MedSAM"
   year: 2026
   first_online: "2026-02-17"
@@ -215,3 +218,273 @@
     performance. Its lightweight integration makes it
     practical for adoption and leads to improved
     model performance on ophthalmic segmentation tasks.
+# Six coauthor publications for _data/publications.yml
+# Includes original summaries (not verbatim abstracts).
+# No project links until an appropriate PAVE/project page exists.
+- id: lancet-pave-2026
+  title: 'Extended genotyping of human papillomavirus and AI-assisted cervical visual evaluation for prediction
+    of cervical precancer in nine resource-limited settings (PAVE): a cross-sectional study'
+  year: 2026
+  publication_date: '2026-11-03'
+  type: Journal Article
+  first_author: false
+  status: Published
+  authors:
+  - de Sanjosé S
+  - Inturrisi F
+  - Perkins RB
+  - Egemen D
+  - Rodriguez AC
+  - Befano B
+  - Guillen D
+  - Jeronimo J
+  - Campos N
+  - Ribeiro A
+  - Ajenifuja O
+  - Yeates K
+  - Cremer M
+  - Goldstein A
+  - Chen H
+  - Figueroa J
+  - Madeleine M
+  - Norris T
+  - Raiol T
+  - Adepiti C
+  - Mchome B
+  - Alfaro K
+  - Norman J
+  - Nordon C
+  - Boyd-Morin J
+  - Clark C
+  - Kinder S
+  - Kalpathy-Cramer J
+  - Schiffman M
+  venue: Lancet Obstet Gynaecol Womens Health
+  volume: '2'
+  doi: 10.1016/S3050-5038(26)00231-1
+  publication_url: https://doi.org/10.1016/S3050-5038(26)00231-1
+  abstract: A nine-country study examined whether extended HPV genotyping and AI-assisted visual evaluation
+    provide complementary information for cervical precancer risk stratification. Among 49,074 participants
+    with valid HPV results, 7,535 HPV-positive participants had complete imaging and pathology data. The
+    combined approach identified clinically meaningful gradients in CIN3+ risk, supporting further implementation
+    and cost-effectiveness studies.
+  abstract_is_summary: true
+  pages: e985-e994
+  group_author: PAVE Study Group
+  citation: 'de Sanjosé S, Inturrisi F, Perkins RB, Egemen D, Rodriguez AC, Befano B, Guillen D, Jeronimo
+    J, Campos N, Ribeiro A, Ajenifuja O, Yeates K, Cremer M, Goldstein A, Chen H, Figueroa J, Madeleine
+    M, Norris T, Raiol T, Adepiti C, Mchome B, Alfaro K, Norman J, Nordon C, Boyd-Morin J, Clark C, Kinder
+    S, Kalpathy-Cramer J, Schiffman M; PAVE Study Group. Extended genotyping of human papillomavirus and
+    AI-assisted cervical visual evaluation for prediction of cervical precancer in nine resource-limited
+    settings (PAVE): a cross-sectional study. Lancet Obstet Gynaecol Womens Health. 2026 Nov;2:e985-e994.
+    doi:10.1016/S3050-5038(26)00231-1.'
+- id: jnci-pave-2025
+  title: 'Initial evaluation of a new cervical screening strategy combining human papillomavirus genotyping
+    and automated visual evaluation: the Human Papillomavirus–Automated Visual Evaluation Consortium'
+  year: 2025
+  publication_date: '2025-10-01'
+  type: Journal Article
+  first_author: false
+  status: Published
+  authors:
+  - Befano B
+  - Kalpathy-Cramer J
+  - Egemen D
+  - Inturrisi F
+  - Jeronimo J
+  - Rodriguez AC
+  - Campos N
+  - Cremer M
+  - Ribeiro A
+  - Ajenifuja KO
+  - Goldstein A
+  - Haider A
+  - Yeates K
+  - Madeleine M
+  - Norris T
+  - Figueroa J
+  - Alfaro K
+  - Raiol T
+  - Adepiti C
+  - Norman J
+  - Chilinda GK
+  - Mchome B
+  - Donastorg Y
+  - Dlamini X
+  - Conzuelo G
+  - Banjo AA
+  - Chone P
+  - Mremi A
+  - Benitez A
+  - Rosberger Z
+  - Vantha T
+  - Prieto-Egido I
+  - Boyd-Morin J
+  - Clark C
+  - Kinder S
+  - Wentzensen N
+  - Desai K
+  - Perkins R
+  - de Sanjosé S
+  - Schiffman M
+  venue: J Natl Cancer Inst
+  volume: '117'
+  doi: 10.1093/jnci/djaf054
+  publication_url: https://doi.org/10.1093/jnci/djaf054
+  abstract: An interim evaluation from nine PAVE clinical sites assessed combined HPV genotype groups
+    and automated cervical image classifications in 1,832 HPV-positive participants. The analysis found
+    that molecular and visual measures independently stratified histologically confirmed CIN3+ risk, supporting
+    further evaluation of a resource-conscious screening strategy.
+  abstract_is_summary: true
+  issue: '10'
+  pages: 2124-2129
+  group_author: PAVE Consortium
+  citation: 'Befano B, Kalpathy-Cramer J, Egemen D, Inturrisi F, Jeronimo J, Rodriguez AC, Campos N, Cremer
+    M, Ribeiro A, Ajenifuja KO, Goldstein A, Haider A, Yeates K, Madeleine M, Norris T, Figueroa J, Alfaro
+    K, Raiol T, Adepiti C, Norman J, Chilinda GK, Mchome B, Donastorg Y, Dlamini X, Conzuelo G, Banjo
+    AA, Chone P, Mremi A, Benitez A, Rosberger Z, Vantha T, Prieto-Egido I, Boyd-Morin J, Clark C, Kinder
+    S, Wentzensen N, Desai K, Perkins R, de Sanjosé S, Schiffman M; PAVE Consortium. Initial evaluation
+    of a new cervical screening strategy combining human papillomavirus genotyping and automated visual
+    evaluation: the Human Papillomavirus–Automated Visual Evaluation Consortium. J Natl Cancer Inst. 2025
+    Oct;117(10):2124-2129. doi:10.1093/jnci/djaf054.'
+- id: optic-cup-disc-2025
+  title: Optic cup and disc segmentation of fundus images using artificial intelligence externally validated
+    with optical coherence tomography measurements
+  year: 2025
+  publication_date: '2025-06-02'
+  type: Journal Article
+  first_author: false
+  status: Published
+  authors:
+  - Kinder S
+  - McNamara S
+  - Clark C
+  - Bearce B
+  - Thakuria U
+  - Veturi YA
+  - Deitz G
+  - de Carlo Forest TE
+  - Mandava N
+  - Kahook MY
+  - Singh P
+  - Kalpathy-Cramer J
+  venue: Transl Vis Sci Technol
+  volume: '14'
+  doi: 10.1167/tvst.14.6.30
+  publication_url: https://doi.org/10.1167/tvst.14.6.30
+  abstract: This study evaluates AI-derived optic disc and cup measurements from fundus images and externally
+    validates them against optical coherence tomography measurements. It examines the potential of automated
+    fundus analysis to support glaucoma-related structural assessment.
+  abstract_is_summary: true
+  issue: '6'
+  pages: '30'
+  citation: Kinder S, McNamara S, Clark C, Bearce B, Thakuria U, Veturi YA, Deitz G, de Carlo Forest TE,
+    Mandava N, Kahook MY, Singh P, Kalpathy-Cramer J. Optic cup and disc segmentation of fundus images
+    using artificial intelligence externally validated with optical coherence tomography measurements.
+    Transl Vis Sci Technol. 2025 Jun;14(6):30. doi:10.1167/tvst.14.6.30.
+- id: sci-rep-cervix-quality-2025
+  title: Generalizable deep neural networks for image quality classification of cervical images
+  year: 2025
+  publication_date: '2025-02-21'
+  type: Journal Article
+  first_author: false
+  status: Published
+  authors:
+  - Ahmed SR
+  - Befano B
+  - Egemen D
+  - Rodriguez AC
+  - Desai KT
+  - Jeronimo J
+  - Ajenifuja KO
+  - Clark C
+  - Perkins R
+  - Campos NG
+  - Inturrisi F
+  - Wentzensen N
+  - Han P
+  - Guillen D
+  - Norman J
+  - Goldstein AT
+  - Madeleine MM
+  - Donastorg Y
+  - Schiffman M
+  - de Sanjose S
+  - Kalpathy-Cramer J
+  venue: Sci Rep
+  volume: '15'
+  doi: 10.1038/s41598-025-90024-0
+  publication_url: https://doi.org/10.1038/s41598-025-90024-0
+  abstract: This study examined deep-learning methods for categorizing the quality of cervical images,
+    a prerequisite for reliable automated visual screening. It investigated generalizability across imaging
+    settings and the role of automated quality control in reducing unsuitable inputs to downstream diagnostic
+    models.
+  abstract_is_summary: true
+  issue: '1'
+  pages: '6312'
+  group_author: PAVE Study Group
+  citation: Ahmed SR, Befano B, Egemen D, Rodriguez AC, Desai KT, Jeronimo J, Ajenifuja KO, Clark C, Perkins
+    R, Campos NG, Inturrisi F, Wentzensen N, Han P, Guillen D, Norman J, Goldstein AT, Madeleine MM, Donastorg
+    Y, Schiffman M, de Sanjose S, Kalpathy-Cramer J; PAVE Study Group. Generalizable deep neural networks
+    for image quality classification of cervical images. Sci Rep. 2025 Feb 21;15(1):6312. doi:10.1038/s41598-025-90024-0.
+- id: eyeliner-2025
+  title: 'EyeLiner: a deep learning pipeline for longitudinal image registration using fundus landmarks'
+  year: 2025
+  publication_date: '2024-11-28'
+  type: Journal Article
+  first_author: false
+  status: Published
+  authors:
+  - Veturi YA
+  - McNamara S
+  - Kinder S
+  - Clark CW
+  - Thakuria U
+  - Bearce B
+  - Manoharan N
+  - Mandava N
+  - Kahook MY
+  - Singh P
+  - Kalpathy-Cramer J
+  venue: Ophthalmol Sci
+  volume: '5'
+  doi: 10.1016/j.xops.2024.100664
+  publication_url: https://doi.org/10.1016/j.xops.2024.100664
+  abstract: EyeLiner aligns longitudinal color fundus photographs by identifying and matching retinal
+    landmarks. Evaluated on three datasets, the pipeline reduced landmark misalignment and improved registration
+    performance over a comparator, potentially helping clinicians distinguish acquisition differences
+    from disease-related changes.
+  abstract_is_summary: true
+  issue: '2'
+  pages: '100664'
+  citation: 'Veturi YA, McNamara S, Kinder S, Clark CW, Thakuria U, Bearce B, Manoharan N, Mandava N,
+    Kahook MY, Singh P, Kalpathy-Cramer J. EyeLiner: a deep learning pipeline for longitudinal image registration
+    using fundus landmarks. Ophthalmol Sci. 2025 Mar-Apr;5(2):100664. doi:10.1016/j.xops.2024.100664.'
+- id: covid-chatbot-2023
+  title: 'An artificially intelligent, natural language processing chatbot designed to promote COVID-19
+    vaccination: a proof-of-concept pilot study'
+  year: 2023
+  publication_date: '2023-03-05'
+  type: Journal Article
+  first_author: false
+  status: Published
+  authors:
+  - Zhou S
+  - Silvasstar J
+  - Clark C
+  - Salyers AJ
+  - Chavez C
+  - Bull SS
+  venue: Digit Health
+  volume: '9'
+  doi: 10.1177/20552076231155679
+  publication_url: https://doi.org/10.1177/20552076231155679
+  abstract: A proof-of-concept study deployed an AI-assisted COVID-19 vaccination chatbot across SMS and
+    web channels. During the evaluation, 2,479 users exchanged 3,994 COVID-related messages, demonstrating
+    the feasibility of delivering responsive vaccination information while identifying the need to update
+    content as public-health guidance changed.
+  abstract_is_summary: true
+  pages: '20552076231155679'
+  citation: 'Zhou S, Silvasstar J, Clark C, Salyers AJ, Chavez C, Bull SS. An artificially intelligent,
+    natural language processing chatbot designed to promote COVID-19 vaccination: a proof-of-concept pilot
+    study. Digit Health. 2023 Mar 5;9:20552076231155679. doi:10.1177/20552076231155679.'
