@@ -62,3 +62,73 @@
     delineation, and that CUQ uncertainty is higher when
     the model is incorrect, providing further fine-grained
     information for clinical decisions.
+
+- id: acetowhite-temporal
+  title: "Automating the Detection of Acetowhite Lesions by Classifying the Temporal Behavior of Cervical Regions"
+  year: 2026
+  first_online: "2025-11-12"
+  type: "Journal Article"
+  first_author: true
+  status: "Published"
+
+  authors:
+    - "Clark C"
+    - "Aquilina A"
+    - "Perkins RB"
+    - "Papagiannakis E"
+    - "Kalpathy-Cramer J"
+
+  venue: "Journal of Lower Genital Tract Disease"
+  volume: "30"
+  issue: "1"
+  pages: "31-38"
+
+  doi: "10.1097/LGT.0000000000000927"
+  pmid: "41222472"
+  publication_url: "https://doi.org/10.1097/LGT.0000000000000927"
+  project_url: "/research/cervical/acetowhitening/"
+
+  citation: >-
+    Clark C, Aquilina A, Perkins RB, Papagiannakis E,
+    Kalpathy-Cramer J. Automating the detection of
+    acetowhite lesions by classifying the temporal
+    behavior of cervical regions. J Low Genit Tract Dis.
+    2026 Jan 1;30(1):31-38.
+    doi:10.1097/LGT.0000000000000927.
+
+  abstract: >-
+    Objective: Cervical acetowhitening is a strong visual
+    cue for lesion identification; however, clinician
+    opinions are subjective and inconsistent. To provide
+    objective evaluation, a machine learning model that
+    enhances colposcopy by automating acetowhite lesion
+    detection in cervical time-series images was developed.
+
+    Methods: A dataset of time-series images collected
+    during 238 colposcopy examinations, where in each case,
+    acetowhitening areas had been annotated by 5 expert
+    colposcopists, was utilized. After preprocessing the
+    images, which included aligning them and extracting
+    the cervix by bounding-box detection, the time-series
+    images were divided into discrete segments, and the
+    transient visual changes were extracted as local
+    statistical features. Using the local agreement levels
+    of the reviewers' predictions for the presence of a
+    lesion, a machine learning model was trained to classify
+    the time-series data and generate synthetic annotations.
+
+    Results: The model-generated synthetic acetowhite
+    lesion maps aligned well with the experts' annotations.
+    In a subset of cases with localized histology results
+    from punch biopsy, model predictions correlated well
+    with histopathology, highlighting potential for clinical
+    utility.
+
+    Conclusions: The proposed method was effective in
+    mimicking expert colposcopists in identifying lesions
+    based on classification of time-series images and
+    outputs correlated with histology. Application of a
+    machine learning model in the clinical setting may
+    streamline lesion identification, support clinician
+    decision-making for punch biopsy, and eventually improve
+    accuracy in detecting precancerous lesions.
