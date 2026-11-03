@@ -132,3 +132,86 @@
     streamline lesion identification, support clinician
     decision-making for punch biopsy, and eventually improve
     accuracy in detecting precancerous lesions.
+
+- id: uat-medsam
+  title: "Uncertainty-Aware Training for Ophthalmic Segmentation Using MedSAM"
+  year: 2026
+  first_online: "2026-02-17"
+  type: "Journal Article"
+  first_author: true
+  status: "Published"
+
+  authors:
+    - "Clark CW"
+    - "Kinder S"
+    - "Nebbia G"
+    - "Veturi YA"
+    - "McNamara S"
+    - "Manoharan N"
+    - "Forest T"
+    - "Kahook M"
+    - "Mandava N"
+    - "Singh P"
+    - "Kalpathy-Cramer J"
+
+  venue: "Translational Vision Science & Technology"
+  volume: "15"
+  issue: "2"
+  article_number: "19"
+
+  doi: "10.1167/tvst.15.2.19"
+  pmid: "41700793"
+  publication_url: "https://tvst.arvojournals.org/article.aspx?articleid=2811497"
+  project_url: "/research/ophthalmology/uat/"
+
+  citation: >-
+    Clark CW, Kinder S, Nebbia G, Veturi YA, McNamara S,
+    Manoharan N, Forest T, Kahook M, Mandava N, Singh P,
+    Kalpathy-Cramer J. Uncertainty-aware training for
+    ophthalmic segmentation using MedSAM.
+    Transl Vis Sci Technol. 2026 Feb;15(2):19.
+    doi:10.1167/tvst.15.2.19.
+
+  abstract: >-
+    Purpose: Uncertainty quantification (UQ) has been
+    applied to deep learning (DL) models to enhance not
+    only their interpretability, but to guide model learning.
+    This work presents Uncertainty-Aware Training (UAT),
+    which generates uncertainty maps at train time and
+    augments the loss function with them to allow the
+    models to concentrate on areas of high uncertainty
+    during learning. By highlighting uncertain pixels
+    as requiring more scrutiny, model performance is
+    enhanced on three ophthalmic segmentation tasks.
+
+    Methods: We applied UAT to three ophthalmic
+    segmentation, or pixel-level classification, tasks:
+    geographic atrophy (GA), optic cup (OC), and foveal
+    avascular zone (FAZ). UAT weighs the loss function
+    binary cross-entropy according to uncertainty,
+    forcing the model to focus on ambiguous areas.
+    We experimented with output-based UQ methods,
+    such as entropy, and post-hoc techniques like
+    conformal prediction. UAT was evaluated on a
+    state-of-the-art foundational model fine-tuned
+    for these specific segmentation tasks.
+
+    Results: The addition of an entropy-weighing map
+    at loss calculation time consistently improved
+    model performance across all three datasets,
+    with conformal prediction using the Least Ambiguous
+    Set-Valued Classifier version also achieving higher
+    overall performance for GA and OC segmentation.
+    The easy-to-integrate implementation of UAT
+    proved feasible without significant training
+    structure modifications.
+
+    Conclusions: UAT enhances DL model performance
+    and interpretability by focusing on uncertainty
+    in addition to error, improving segmentation accuracy.
+
+    Translational Relevance: UAT uses interpretable
+    uncertainty maps to enhance DL segmentation
+    performance. Its lightweight integration makes it
+    practical for adoption and leads to improved
+    model performance on ophthalmic segmentation tasks.
